@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+:root {
+    --color-main: #1E202B;
+}
+
+
+.navbar {
+    background-color: var(--color-main);
+    display: flex;
+}
+
+
+
+.brandaing a {
+    text-decoration: none;
+}
+
+.logo {
+    vertical-align: middle;
+}
+
+.site_description {
+    font-size: 0.6rem;
+
+}
+
+.logo_titel {
+    line-height: 1px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-item a:hover {
+    color: #009AD8;
+    border: 2px solid #009AD8;
+    border-radius: 30px;
+    padding: 5px 25px;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.back_ground {
+    background-image: url(../images/banner.png);
+    min-height: 350px;
+    background-size: cover;
+
+}
+
+.find_location {
+    margin-bottom: 70px;
+    position: relative;
+}
+
+
+
+.btnfind {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    color: white;
+    background-color: var(--color-main);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 7%;
+}
+
+.num h6 {
+    font-size: 5rem;
+}
+
+.custom {
+    color: #323543;
+}
+
+.curd {
+    background-color: #323544;
+    color: white;
+}
+
+.curd span {
+    color: #8E8F94;
+}
+
+.days {
+    background-color: var(--color-main);
+}
+
+.curd2 {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.degree_number p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.custom {
+    color: #009AD8;
+}
+.Alerterorr{
+    left: -40%;
+    
+}
+#erorrMessage {
+    transition: all 500ms;
+}

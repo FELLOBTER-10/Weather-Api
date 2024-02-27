@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather 2</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="navbar p-4">
+            <div class="container">
+                <div class="brandaing ">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="me-3">
+                        <div class="logo d-inline-block ">
+                            <h6 class="logo_titel text-white  ">weather</h6>
+                            <small class="site_description text-white  ">tagline goes here</small>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="main-navigation float-end">
+                    <ul class="menu list-unstyled ">
+                        <li class="menu-item current-menu-item float-end ms-5 "><a href="#">contact</a></li>
+                        <li class="menu-item float-end ms-5 "><a href="#">Photo</a></li>
+                        <li class="menu-item float-end ms-5 "><a href="#">Live cameras</a></li>
+                        <li class="menu-item float-end ms-5 "><a href="#">News</a></li>
+                        <li class="menu-item float-end ms-5 "><a href="#">Home</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+    </nav>
+
+    <section>
+        <div class="back_ground">
+            <div class="container">
+                <form class="find_location">
+                    <input type="text" placeholder="Find your location..." class="btnfind" id="InputSearch">
+                </form>
+
+                <div class="forcast-table">
+                    <div class="row g-0">
+                        <div class="col-md-4 curd pb-5">
+                            <div class="days px-3 rounded-start  w-100 d-flex justify-content-between ">
+                                <p id="NameToDay"></p>
+                                <span>
+                                    <span id="NumberDay" class="text-light my-auto">30</span>
+                                    <span id="ToDayMonth" class="my-auto text-light"></span>
+                                </span>
+                            </div>
+                            <div class="location">
+                                <h6 id="location_city" class="py-3">cairo</h6>
+                            </div>
+                            <div class="degree d-flex justify-content-around">
+                                <div class="num">
+                                    <h6 id="temp"></h6>
+                                </div>
+                                <div class="forcast-icon  ">
+                                    <img id="imgToday" alt="">
+                                </div>
+                            </div>
+                            <div class="custom">
+                                <h6 id="textTody">Mist</h6>
+                            </div>
+                            <div class="icons my-lg-5">
+                                <img id="imgeHumidity" src="images/icon-umberella.png" alt="">
+                                <span id="humidity" class="px-3"></span>
+                                <img src="images/icon-wind.png" alt="">
+                                <span id="wind_kph" class="px-3">%</span>
+                                <img src="images/icon-umberella.png" alt="">
+                                <span id="wind_dir" class="px-3"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 curd2 pb-5">
+                            <div class="days p-1 w-100 d-flex justify-content-center ">
+                                <h6 class="NextDays"></h6>
+
+                            </div>
+
+                            <div class="degree d-flex align-items-center justify-content-center flex-column mt-5">
+
+                                <div class="forcast-icon mt-5 ">
+                                    <img class="imgforcast" alt="">
+                                </div>
+                                <div class="degree_number">
+                                    <p class="maxtemp_c"></p>
+                                    <p class="mintemp_c"></p>
+                                </div>
+                            </div>
+
+                            <div class="custom text-center">
+                                <h6 class="TextForecast">Mist</h6>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 curd pb-5">
+                            <div class="days p-1 w-100 d-flex justify-content-center ">
+                                <h6 class="NextDays"></h6>
+
+                            </div>
+
+                            <div class="degree d-flex align-items-center justify-content-center flex-column mt-5">
+
+                                <div class="forcast-icon mt-5 ">
+                                    <img class="imgforcast" alt="">
+                                </div>
+                                <div class="degree_number">
+                                    <p class="maxtemp_c"></p>
+                                    <p class="mintemp_c"></p>
+                                </div>
+                            </div>
+
+                            <div class="custom text-center">
+                                <h6 class="TextForecast">Mist</h6>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
